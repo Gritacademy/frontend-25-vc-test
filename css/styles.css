@@ -31,3 +31,10 @@ footer {
   text-align: center;
   color: white;
 }
+
+.mainh1{
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
