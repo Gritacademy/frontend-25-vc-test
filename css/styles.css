@@ -1,20 +1,32 @@
 body{
   justify-content: center;
   align-content: center;
-  background-color: grey;
-  color:white;
+  background-color: rgb(24, 8, 56);
+  color:rgb(188, 134, 34);
 }
 .flex{
   display: flex;
   flex-direction: column;
 }
 .imgdiv{
+<<<<<<< Updated upstream
 justify-self: center;
 display: flex;
 flex-direction: row;
 width: 200px;
 height: 200px;
 flex-wrap: wrap;
+=======
+  display: flex;
+  flex-direction: row;
+  max-width: 200px;
+  max-height: 200px;
+}
+.img{
+  max-width: 200px;
+  max-height: 200px;
+
+>>>>>>> Stashed changes
 }
 footer{
   justify-items: center;
@@ -40,7 +52,10 @@ footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: 2.5rem;
   text-align: center;
+<<<<<<< Updated upstream
   color: black;
+=======
+>>>>>>> Stashed changes
 }
 
 .mainh1{
