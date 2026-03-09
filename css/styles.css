@@ -1,6 +1,7 @@
 body{
   justify-content: center;
   align-content: center;
+  background-color: grey;
 }
 .flex{
   display: flex;
