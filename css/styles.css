@@ -2,7 +2,7 @@ body{
   justify-content: center;
   align-content: center;
   background-color: rgb(24, 8, 56);
-  color:rgb(188, 134, 34);
+  color:rgb(174, 126, 35);
 }
 .flex{
   display: flex;
@@ -17,7 +17,7 @@ body{
   height: 200px;
   flex-wrap: wrap;
 }
-.img{
+.imga{
   max-width: 200px;
   max-height: 200px;
 }
@@ -46,7 +46,7 @@ footer{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-family: 2.5rem;
   text-align: center;
-  color: black;
+  color: rgb(255, 0, 0);
 }
 
 .mainh1{
