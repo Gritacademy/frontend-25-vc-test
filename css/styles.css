@@ -1,6 +1,7 @@
 body{
   justify-content: center;
   align-content: center;
+  background-color: grey;
 }
 .flex{
   display: flex;
@@ -8,10 +9,10 @@ body{
 }
 .imgdiv{
   justify-self: center;
-display: flex;
-flex-direction: row;
-width: 200px;
-height: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
 }
 footer{
   justify-items: center;
