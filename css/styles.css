@@ -24,3 +24,10 @@ footer{
   width: 20%;
 }
 }
+
+.text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 2.5rem;
+  text-align: center;
+  color: white;
+}
