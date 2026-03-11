@@ -1,9 +1,8 @@
-
-body{
+body {
   justify-content: center;
   align-content: center;
   background-color: rgb(24, 8, 56);
-  color:rgb(188, 134, 34);
+  color: rgb(188, 134, 34);
   padding: 0;
   margin: 0;
 }
@@ -19,8 +18,8 @@ nav {
   flex-direction: row;
   text-decoration: none;
   margin: 0.5rem;
-  justify-content: center;  
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -28,13 +27,12 @@ a {
   margin: 0.5rem;
 }
 
-
-.flex{
+.flex {
   display: flex;
   flex-direction: column;
 }
 
-.imga { 
+.imga {
   width: 200px;
   height: 150px;
   justify-self: center;
@@ -48,47 +46,46 @@ a {
   justify-self: center;
 }
 
-footer{
+footer {
   padding: 0.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;  
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   background-color: black;
   gap: 8px;
 }
-.icon{
+.icon {
   width: 20px;
   height: auto;
 }
 
-@media screen and (max-width:650px)  {
-.imgdiv{
-  width: 20%;
+@media screen and (max-width: 650px) {
+  .imgdiv {
+    width: 20%;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .mainh1 {
+    font-size: 1rem;
+  }
 }
 
-.text{
-  font-size: 1.5rem;
-}
-
-.mainh1{
-  font-size: 1rem;
-}
-
-}
-
-.text{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-family: 2.5rem;
   text-align: center;
   color: rgb(4, 46, 131);
 }
 
-.mainh1{
+.mainh1 {
   text-align: center;
   font-size: 2rem;
   color: rgb(0, 0, 0);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .textbox {
@@ -98,7 +95,6 @@ footer{
   margin: 0;
   padding: 1rem;
 }
-
 
 .button-link {
   display: inline-block;
