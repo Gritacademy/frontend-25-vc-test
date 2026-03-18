@@ -19,6 +19,11 @@ header {
   background-color: white;
   height: 3.5rem;
   border-bottom: 2px solid  rgb(255, 0, 204);
+  background-color: black;
+}
+
+header:hover{
+  background-color: white;
 }
 
 nav {
@@ -39,6 +44,10 @@ a {
   padding: 2px;
 }
 
+a:hover{
+  background-color: black;
+}
+
 .flex {
   display: flex;
   flex-direction: column;
@@ -50,6 +59,13 @@ a {
   justify-self: center;
   border: 2px solid rgb(255, 0, 204);
   border-radius: 1px;
+  border-radius: 25%;
+}
+
+.imga:hover{
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 0;
 }
 
 .imgdiv {
@@ -130,6 +146,12 @@ footer {
   border:solid 2px rgb(255, 0, 204);
   margin: 2%;
   padding: 1rem;
+}
+
+.textbox:hover{
+  margin: 0.5rem;
+  cursor: pointer;
+  background-color: black;
 }
 
 .cutekitty{
