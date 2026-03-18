@@ -1,7 +1,7 @@
 body {
   justify-content: center;
   align-content: center;
-  background-color: rgb(24, 8, 56);
+  background-color: rgb(93, 25, 229);
   color: rgb(188, 134, 34);
   padding: 0;
   margin: 0;
@@ -13,7 +13,7 @@ header {
 }
 
 nav {
-  padding: 0.1rem;
+  padding: 0.8rem;
   display: flex;
   flex-direction: row;
   text-decoration: none;
