@@ -1,28 +1,33 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon/kid.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>FE25 Versionshantering 1</title>
-  </head>
-  <body>
-    
-    <header class="flex">
-      <nav>
-        <a href="https://quan.se/"><img src="" alt="" />HOME</a>
-        <a href="https://quan.se/menu"><img src="" alt="" />GALLERI</a>
-        <a
-          href="https://app.bokabord.se/reservation/?hash=a20fd3f86be5b340b08b427e465aef05&version=new"
-          ><img src="" alt="" />CONTACT</a
-        >
-        <a href="https://google.com"><img src="" alt="" />ABOUT US</a>
-          <a href="">ask us about team Effort </a>
-             <a href="https://api-ninjas.com/api/city"> city api</a>
-             <a href="https://se.trustpilot.com/"> review us</a>
-      </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="img/favicon/kid.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>FE25 Versionshantering 1</title>
+        <script type="module" src="script.js"></script>
+        <script type="module" src="database.js"></script>
+    </head>
+    <body>
+        <header class="flex">
+            <nav>
+                <a href="https://quan.se/"><img src="" alt="" />HOME</a>
+                <a href="https://quan.se/menu"><img src="" alt="" />GALLERI</a>
+                <a
+                    href="https://app.bokabord.se/reservation/?hash=a20fd3f86be5b340b08b427e465aef05&version=new"
+                    ><img src="" alt="" />CONTACT</a
+                >
+                <a href="https://google.com"><img src="" alt="" />ABOUT US</a>
+                <a href="">ask us about team Effort </a>
+                <a href="https://api-ninjas.com/api/city"> city api</a>
+                <a href="https://se.trustpilot.com/"> review us</a>
+            </nav>
+        </header>
 
         <div class="imgdiv">
             <img class="imga" src="img/alpha.png" alt="Berg" />
@@ -104,30 +109,4 @@
             /></a>
         </footer>
     </body>
-    <script >
-        // Import the functions you need from the SDKs you need
-        // import { initializeApp } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-app.js";
-        import "firebase/compat/database";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyDypaZOsPuLmqX39O4LBg0RTeUI7vs0UKk",
-            authDomain: "fe25-vc.firebaseapp.com",
-            databaseURL:
-                "https://fe25-vc-default-rtdb.europe-west1.firebasedatabase.app",
-            projectId: "fe25-vc",
-            storageBucket: "fe25-vc.firebasestorage.app",
-            messagingSenderId: "281274460284",
-            appId: "1:281274460284:web:406859a497e65fdc3f01f9",
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-
-        // Initialize Realtime Database and get a reference to the service
-const database = app.database();
-    </script>
-    <!-- <script src="../andreas.js"></script> -->
 </html>
