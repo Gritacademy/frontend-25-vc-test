@@ -1,19 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lora:ital,wght@0,400..700;1,400..700&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Allura&family=Lora:ital,wght@0,400..700;1,400..700&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Allura&family=Lora:ital,wght@0,400..700;1,400..700&family=Manufacturing+Consent&family=Ultra&display=swap');
+
 body {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Awesome-Wallpapers-Backgrounds-4257p.jpg);
   justify-content: center;
   align-content: center;
-  background-color: rgb(24, 8, 56);
+  background-color: rgb(93, 25, 229);
   color: rgb(188, 134, 34);
   padding: 0;
   margin: 0;
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
   background-color: white;
-  height: 3rem;
+  height: 3.5rem;
+  border-bottom: 2px solid  rgb(255, 0, 204);
 }
 
 nav {
-  padding: 0.1rem;
   display: flex;
   flex-direction: row;
   text-decoration: none;
@@ -25,6 +33,10 @@ nav {
 a {
   text-decoration: none;
   margin: 0.5rem;
+  color: rgb(255, 0, 204);
+  border-left: 2px rgb(255, 0, 204) solid;
+  border-right: 2px rgb(255, 0, 204) solid;
+  padding: 2px;
 }
 
 .flex {
@@ -33,18 +45,30 @@ a {
 }
 
 .imga {
-  width: 200px;
-  height: 150px;
+  max-width: fit-content;
+  height: 200px;
   justify-self: center;
-  align-self: center;
+  border: 2px solid rgb(255, 0, 204);
+  border-radius: 1px;
 }
 
 .imgdiv {
   gap: 8px;
   display: flex;
   flex-direction: row;
-  justify-self: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
+
+.heading-text{
+  text-align: center;
+  color: rgb(255, 255, 0);
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 footer {
   padding: 0.5rem;
@@ -75,26 +99,44 @@ footer {
 }
 
 .text {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-family: 2.5rem;
   text-align: center;
-  color: rgb(4, 46, 131);
+  color: rgb(215, 83, 255);
+  font-family: "Aldrich", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .mainh1 {
   text-align: center;
-  font-size: 2rem;
-  color: rgb(0, 0, 0);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 0, 204);
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .textbox {
-  background-color: rgba(240, 248, 255, 0.752);
-  border-top-style: solid;
-  border-color: rgb(255, 255, 255);
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: fit-content;
+  max-height: fit-content;
+  background-color: rgb(255, 255, 255);
+  border:solid 2px rgb(255, 0, 204);
+  margin: 2%;
   padding: 1rem;
 }
+
+.cutekitty{
+  max-width: 30px;
+  align-self: flex-end;
+}
+
 
 .button-link {
   display: inline-block;
