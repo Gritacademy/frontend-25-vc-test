@@ -10,8 +10,7 @@ import { getDatabase,ref,set,onValue,runTransaction,remove, push, onChildAdded, 
     const firebaseConfig = {
         apiKey: "AIzaSyDypaZOsPuLmqX39O4LBg0RTeUI7vs0UKk",
         authDomain: "fe25-vc.firebaseapp.com",
-        databaseURL:
-            "https://fe25-vc-default-rtdb.europe-west1.firebasedatabase.app",
+        databaseURL:"https://fe25-vc-default-rtdb.europe-west1.firebasedatabase.app",
         projectId: "fe25-vc",
         storageBucket: "fe25-vc.firebasestorage.app",
         messagingSenderId: "281274460284",
@@ -26,7 +25,15 @@ import { getDatabase,ref,set,onValue,runTransaction,remove, push, onChildAdded, 
     console.log(db);
     
  writeUserData("Alrik")
+
+
  
+
+ /***************************************************************
+ *
+ *   Write  https://firebase.google.com/docs/database/web/read-and-write
+ *
+ *****************************************************************/
 function writeUserData(userId) {
   const db = getDatabase();
   set(ref(db, 'users/' + userId), {
@@ -34,9 +41,32 @@ function writeUserData(userId) {
   });
 }
 
-
-const starCountRef = ref(db, 'users/');
-onValue(starCountRef, (snapshot) => {
+ /***************************************************************
+ *
+ *  READ  https://firebase.google.com/docs/database/web/read-and-write
+ *
+ *****************************************************************/
+const userRef = ref(db, 'users/');
+onValue(userRef, (snapshot) => {
   const data = snapshot.val();
   console.log(data);
+});
+
+
+
+ /***************************************************************
+ *
+ *  READ  https://firebase.google.com/docs/database/web/read-and-write
+ *
+ *****************************************************************/
+set(ref(db, 'users/' + userId), {
+  username: name,
+  email: email,
+  profile_picture : imageUrl
+})
+.then(() => {
+  // Data saved successfully!
+})
+.catch((error) => {
+  // The write failed...
 });
