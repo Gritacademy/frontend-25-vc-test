@@ -56,7 +56,7 @@ onValue(userRef, (snapshot) => {
 
  /***************************************************************
  *
- *  READ  https://firebase.google.com/docs/database/web/read-and-write
+ *  Set  https://firebase.google.com/docs/database/web/read-and-write
  *
  *****************************************************************/
 set(ref(db, 'users/' + userId), {
